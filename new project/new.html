@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Lover</title>
+    
+
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+       ul{
+        list-style: none;
+       }
+      .Container{
+        max-width: 1200px;
+        margin: 20px 30px;
+      }
+      
+      a{
+        text-decoration: none;
+        color: white;
+      }
+   header{
+    background-color:slateblue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+   }
+   nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px ;
+   }
+   .logo{
+         font-size: 32px;
+         font-weight: 600;
+
+   }
+
+   nav ul{
+    display: flex;
+    gap: 20px;
+   }
+    
+   nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+   }
+    nav ul li:hover {
+        border-bottom: 2px solid white;
+        transition: 0.2s ease-in;
+    }
+       
+  .hero-section{
+    background-image: url(image1.jpg);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+  }
+
+  .hero-section .Container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .hero-section h1{
+    font-size: 96px;
+
+  }
+  .hero-section h3{
+    font-size: 32px;
+  }
+
+   .Music-section{
+    padding-top: 50px;
+    background-color:blueviolet;
+   }
+
+   .Music-section .Container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   }
+ 
+   
+
+   .primary-btn{
+    background-color: red;
+    color: white;
+   }
+
+   .secondary-btn{
+    background-color:blueviolet;
+    color: white;
+}
+.about-music{
+
+    place-items: center;
+    gap: 50px;
+    text-align: center ;
+    display: grid;
+}
+
+
+.footer-upper{
+
+    background-color: cornflowerblue;
+    padding:20px;
+
+}
+
+
+
+
+
+</style>
+      
+<body>
+
+       <header>
+        <nav class = "Container">
+            <div class = "logo "> Music Lover</div>
+            <ul> 
+                 <a href="#hero">
+                    <li>Overview</li>
+                 </a>
+                  <a href="#music">
+                    <li>Music</li>
+                  </a>
+                  <a href="#video">
+                    <li>Video</li>
+                  </a>
+                   <a href="gift">
+                    <li>Gift Cards</li>
+                   </a>
+                   
+
+            </ul>
+
+
+
+
+
+        </nav>
+       </header>
+       <main>
+             <section class = "hero-section " id ="hero">
+                <div class = "Container">
+                    <h1>My Music</h1>
+                    <h3>Your music, and tV show lover </h3>
+                    <p>
+                        Music Lover is the best way to organize and enjoy the music 
+                        day full party Day - Tv Show you alrady have  and shop for the ones you want. 
+                        all the entertaiment Music Lover has to offer on your Mac and enjoy the music sound 
+
+                    </p>
+                </div>
+
+             </section>
+             <section class="Music-section" id="music">
+                <div class = "Container">
+                  <h2>Music</h2>
+                  <h4>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur officia tempora repellat dolore libero consequatur, quos iure expedita obcaecati.
+                  </h4>
+                  <button class = "primary-btn">Start Your Trail Now</button>
+                  <p>All Music is available in myTunes ,and For ios and Android device</p>
+                </div>
+             </section>
+             <section class = "about-music Container">
+                 <h3>The Movie and music  and tvCollection you aways wished for.</h3>
+                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam minus commodi saepe a accusantium sit nihil nostrum, facere ut, placeat fugit? Ipsam veniam vero dolor magni est dolores id accusantium? Enim libero repudiandae dolores molestiae, perferendis unde asperiores recusandae quod.
+                 </h4>
+                 <button class = "secondary-btn">Read more</button>
+                 
+             
+                </section>
+             
+
+       </main>
+</body>
+</html>
